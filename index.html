@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS show and tell</title>
+</head>
+
+<!-- the code below is the inline style method for selecting a direct child element. 
+this will allow the writer to select the direct children of a specific element.  
+DON'T USE THIS. :D -->
+
+<style type="text/css">
+    section.first > p {   
+        color: Blue;
+    }
+</style>
+
+<body>
+    <main id="main">
+        <section id="first">
+            <p class="one">example one of css show and tell</p>
+            <p class="two">example two of css show and tell</p>
+        </section>
+
+        <section id="second">
+          <ul>
+              <li>one</li>
+              <li>two</li>
+              <li>one</li>
+              <li>two</li>
+              <li>one</li>
+              <li>two</li>
+          </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>
