@@ -1,0 +1,14 @@
+li:nth-child(2) {
+
+    color: blue;
+}
+
+/* the above code makes the second li in the ul blue.
+ */
+
+/* syntax for this is targetParentElement:nth-child(#) {
+    what you want to do to the stuffs you selected }
+*/
+
+/* this css method allows you to select a parent element
+    and apply styling to a specific child of that element */
